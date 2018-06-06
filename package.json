@@ -7,7 +7,6 @@
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist",
-    "prettier": "prettier --config .prettierrc --write 'src/**'",
     "parcel": "parcel src/index.html",
     "lint": "tslint --fix src/*.tsx src/**/*.tsx",
     "lint-watch": "chokidar src/*.tsx src/**/*.tsx -c 'npm run lint'",
