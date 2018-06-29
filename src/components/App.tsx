@@ -36,7 +36,7 @@ export default compose<EnhancedProps, Props>(
       text: '',
     },
     {
-      setText: () => t => ({ text: t }),
+      setText: () => (t: string) => ({ text: t }),
     }
   ),
   lifecycle<EnhancedProps, {}, {}>({
